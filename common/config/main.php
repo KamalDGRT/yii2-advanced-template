@@ -10,4 +10,7 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
     ],
+    'assetManager' => [
+        'appendTimestamp' => true
+    ]
 ];
