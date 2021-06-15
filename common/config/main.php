@@ -9,8 +9,8 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'assetManager' => [
+            'appendTimestamp' => true
+        ]
     ],
-    'assetManager' => [
-        'appendTimestamp' => true
-    ]
 ];
